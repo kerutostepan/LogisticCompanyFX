@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LogisticCompanyFX">
+    <output-path>$PROJECT_DIR$/out/artifacts/LogisticCompanyFX</output-path>
+    <root id="archive" name="LogisticCompanyFX.jar">
+      <element id="archive" name="LogisticCompanyFX.jar">
+        <element id="module-output" name="LogisticCompanyFX" />
+      </element>
+    </root>
+  </artifact>
+</component>

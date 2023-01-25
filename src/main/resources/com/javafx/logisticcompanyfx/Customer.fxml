@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javafx.logisticcompanyfx.controller.CustomerController">
+   <children>
+      <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="482.0" prefWidth="695.0" style="-fx-background-color: #36454f;">
+         <children>
+            <AnchorPane layoutX="-14.0" layoutY="69.0" prefHeight="428.0" prefWidth="713.0" style="-fx-background-color: #c0ffee;">
+               <children>
+                  <TableView fx:id="ProductsTable" layoutX="42.0" layoutY="29.0" prefHeight="371.0" prefWidth="164.0">
+                     <columns>
+                        <TableColumn fx:id="ProductsID" prefWidth="28.79998779296875" text="ID" />
+                        <TableColumn fx:id="CountryName" prefWidth="134.0" text="CountryName" />
+                     </columns>
+                  </TableView>
+                  <Button fx:id="ShowProductsButton" layoutX="343.0" layoutY="52.0" mnemonicParsing="false" prefHeight="62.0" prefWidth="228.0" text="Show products">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="MenuReturnButton" layoutX="638.0" layoutY="16.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="61.0" text="Return" />
+                  <Button fx:id="ExitButton" layoutX="638.0" layoutY="374.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="61.0" text="Exit" />
+               </children>
+            </AnchorPane>
+            <Text layoutX="180.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What the supplier sells">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
